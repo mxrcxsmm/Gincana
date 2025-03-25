@@ -1,0 +1,123 @@
+body {
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-color: #FFFB00 !important;
+    background-image: url('../img/fondo.png') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-blend-mode: multiply !important;
+}
+
+.login-container {
+    background: rgba(255, 255, 255, 0.9) !important;
+    padding: 30px !important;
+    border-radius: 15px !important;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2) !important;
+    text-align: center !important;
+    width: 100% !important;
+    max-width: 500px !important;
+    /* Aumentar el ancho máximo del contenedor */
+    min-height: 350px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: left !important;
+    position: relative !important;
+    margin-top: 90px !important;
+}
+
+.imagen {
+    width: 210px !important;
+    height: 190px !important;
+}
+
+.login-container img {
+    position: absolute !important;
+    top: -140px !important;
+    left: 55% !important;
+    transform: translateX(-50%) !important;
+    width: 200px !important;
+}
+
+.login-container button {
+    width: 90% !important;
+    /* Ajustar el ancho del botón */
+    padding: 10px !important;
+    background-color: #ffcc00 !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    font-size: 14px !important;
+    margin-top: 35px !important;
+    margin-left: 5% !important;
+}
+
+.login-container button:hover {
+    background-color: #ff9900 !important;
+}
+
+.login-container a {
+    display: block !important;
+    margin-top: 10px !important;
+    color: #007bff !important;
+    text-decoration: none !important;
+    font-size: 16px !important;
+}
+
+.form-group {
+    text-align: left !important;
+    width: 100% !important;
+    margin-bottom: 15px !important;
+}
+
+.form-group input {
+    margin-top: 30px !important;
+    padding: 10px !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+}
+
+.text-danger {
+    color: red;
+    font-size: 0.9rem;
+    margin-left: 23px;
+    margin-top: 10px;
+}
+
+
+/* Estilos para móviles */
+
+@media (max-width: 767px) {
+    .login-container {
+        width: 90% !important;
+        padding: 20px !important;
+        margin: 20px !important;
+        margin-top: 60px !important;
+    }
+    .login-container img {
+        position: absolute !important;
+        top: -150px !important;
+        left: 55% !important;
+        transform: translateX(-50%) !important;
+        width: 175px !important;
+    }
+    .login-container input {
+        font-size: 12px !important;
+        width: 90% !important;
+    }
+    .login-container button {
+        font-size: 12px !important;
+        width: 90% !important;
+        margin-top: 25px !important;
+    }
+    .login-container a {
+        font-size: 12px !important;
+    }
+}
